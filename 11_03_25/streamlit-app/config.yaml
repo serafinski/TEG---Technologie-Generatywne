@@ -1,0 +1,28 @@
+# Chatbot Application Configuration
+
+# Environment Settings
+env_path: ../../.env
+api_key_env_var: OPENAI_API_KEY
+
+# Application UI Settings
+app:
+  title: AI Chatbot
+  layout: wide  # Options: wide, centered
+
+# OpenAI Settings
+default_model: gpt-4o-mini
+available_models:
+  - gpt-4o-mini
+  - gpt-3.5-turbo
+
+# Chat Settings
+default_system_message: >
+  You are a helpful, polite academic teacher answering students' questions
+  with clarity and providing detailed explanations when needed.
+
+app_title: My New Chtbot App
+chat_placeholder: Hi, how can I help you?
+
+# Advanced Settings
+temperature: 0.7      # Controls randomness of responses (0.0-1.0)
+max_tokens: 4096      # Maximum tokens in completion (null = no limit)
