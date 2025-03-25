@@ -1,20 +1,15 @@
-[tool.poetry]
+[project]
 name = "teg-technologie-generatywne"
 version = "0.1.0"
-description = ""
-authors = ["Tomasz Serafiński <work.serafinski@gmail.com>"]
+description = "Add your description here"
 readme = "README.md"
-
-[tool.poetry.dependencies]
-python = "^3.12"
-python-dotenv = "^1.0.1"
-langchain-openai = "^0.3.8"
-langchain = "^0.3.20"
-langchain-core = "^0.3.43"
-notebook = "^7.3.2"
-flask = "^3.1.0"
-streamlit = "^1.43.1"
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires-python = ">=3.11"
+dependencies = [
+    "flask>=3.1.0",
+    "langchain>=0.3.21",
+    "langchain-core>=0.3.48",
+    "langchain-openai>=0.3.10",
+    "notebook>=7.3.3",
+    "python-dotenv>=1.0.1",
+    "streamlit>=1.43.2",
+]
