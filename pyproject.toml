@@ -5,11 +5,22 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "faiss-cpu>=1.10.0",
     "flask>=3.1.0",
+    "gensim>=4.3.3",
     "langchain>=0.3.21",
+    "langchain-community>=0.3.20",
     "langchain-core>=0.3.48",
+    "langchain-huggingface>=0.1.2",
     "langchain-openai>=0.3.10",
+    "nltk>=3.9.1",
     "notebook>=7.3.3",
+    "numpy>=1.26.4",
+    "pandas>=2.2.3",
+    "pymupdf>=1.25.4",
     "python-dotenv>=1.0.1",
+    "scikit-learn>=1.6.1",
+    "sentence-transformers>=3.4.1",
     "streamlit>=1.43.2",
+    "transformers>=4.50.1",
 ]

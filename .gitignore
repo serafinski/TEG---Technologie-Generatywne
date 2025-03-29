@@ -12,3 +12,10 @@ wheels/
 
 # Secrets
 .env
+
+# Mac OS
+.DS_Store
+
+# Pliki
+index.faiss
+index.pkl
