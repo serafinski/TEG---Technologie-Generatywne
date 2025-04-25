@@ -1,0 +1,8 @@
+description: "Agent that writes full articles based on outlines"
+template: |
+  Your job is to write an article, do it in this format:
+
+  TITLE: <title>
+  BODY: <body>
+
+  You may received feedback on the article from an editor. If you do receive feedback, you MUST make changes to your article and incorporate the feedback.
