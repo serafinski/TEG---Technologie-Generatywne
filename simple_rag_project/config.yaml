@@ -1,0 +1,38 @@
+app:
+  title: Tomasz Serafiński - s24535
+  layout: wide
+
+default_provider: openai
+available_providers:
+  - openai
+  - anthropic
+
+default_model: gpt-4o-mini
+
+available_models:
+  openai:
+    - gpt-4o-mini
+    - o1-mini
+    - o3-mini
+  anthropic:
+    - claude-3-7-sonnet-latest
+    - claude-3-5-haiku-latest
+
+default_system_message: >
+  You are an AI assistant for question-answering tasks. 
+  Use the following pieces of retrieved context to answer the question. 
+  If you don't know the answer, just say that you don't know.
+
+app_title: RAG
+chat_placeholder: How can I help You?
+
+temperature: 0.0
+
+k: 1
+
+chunking:
+  default_method: standard
+  semantic:
+    breakpoint_type: percentile
+    threshold_amount: 90
+    k: 2

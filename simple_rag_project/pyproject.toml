@@ -1,0 +1,18 @@
+[project]
+name = "teg-rag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "langchain>=0.3.23",
+    "langchain-anthropic>=0.3.10",
+    "langchain-chroma>=0.2.2",
+    "langchain-community>=0.3.21",
+    "langchain-experimental>=0.3.4",
+    "langchain-openai>=0.3.12",
+    "pypdf>=5.4.0",
+    "python-dotenv>=1.1.0",
+    "pyyaml>=6.0.2",
+    "streamlit>=1.44.1",
+]
